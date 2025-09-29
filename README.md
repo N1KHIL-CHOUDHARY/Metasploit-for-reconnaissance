@@ -48,6 +48,8 @@ scan the targets with the command db_nmap as follows.
 
 msf > db_nmap 192.168.181.0/24
 
+<img width="709" height="325" alt="image" src="https://github.com/user-attachments/assets/d7247197-2884-43d4-8fda-a6d2950eb558" />
+
 
 Metasploit has a multitude of scanning modules built in. If we open another terminal, we can navigate to 
 
@@ -57,25 +59,34 @@ cd /usr/share /metasploit-framework/modules/auxiliary
 
 kali > ls -l
 
+<img width="746" height="454" alt="image" src="https://github.com/user-attachments/assets/869b8aa7-3117-493d-81e7-860283ab9a93" />
+
 
 Search is a powerful command in Metasploit that you can use to find what you want to locate. 
 
 msf >search name:Microsoft type:exploit
 
+<img width="1707" height="411" alt="image" src="https://github.com/user-attachments/assets/a25d0579-0baf-4822-85f9-b529b1e20cfb" />
+
 
 search type:auxiliary mysql
 
-
-search type:auxiliary mysql
-
+<img width="1415" height="451" alt="image" src="https://github.com/user-attachments/assets/5e59866a-af19-41be-bee5-1beb4d22665b" />
 
 use 11
+
+<img width="1199" height="376" alt="image" src="https://github.com/user-attachments/assets/1e0e3627-0fec-499a-954f-58a53346dc71" />
 
 
 set RHOSTS <IP>
 
+<img width="586" height="110" alt="image" src="https://github.com/user-attachments/assets/449a8dd5-7e3f-4f15-b4ed-d25d15a87903" />
+
 
 use auxiliary/scanner/mysql/mysql_login
+
+<img width="1400" height="543" alt="image" src="https://github.com/user-attachments/assets/4144f0e4-c087-4f96-a717-f58efbc09938" />
+
 
 
 set PASS_FILE /usr/share/wordlists/rockyou.txt
@@ -87,6 +98,8 @@ set BLANK_PASSWORDS true
 set verbose no
 
 run
+
+<img width="894" height="270" alt="image" src="https://github.com/user-attachments/assets/a61039b2-d609-4077-b659-cb811ced0f96" />
 
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully
